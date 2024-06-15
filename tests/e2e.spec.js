@@ -64,4 +64,5 @@ test('@Web Client App login', async ({ page }) => {
    expect(orderId.includes(orderIdDetails)).toBeTruthy();
   console.log("Test completed");
    console.log("Test completed");
+   console.log("Test completed");
 });
