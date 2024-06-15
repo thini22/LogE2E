@@ -63,6 +63,5 @@ test('@Web Client App login', async ({ page }) => {
    const orderIdDetails = await page.locator(".col-text").textContent();
    expect(orderId.includes(orderIdDetails)).toBeTruthy();
   console.log("Test completed");
-   console.log("Test completed");
-   console.log("Test completed");
+   
 });
